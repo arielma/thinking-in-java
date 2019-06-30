@@ -4,7 +4,7 @@
 
 package c2.exercise;
 
-public class E2Aliasing {
+public class E2AliasingInObjectAssignment {
     private float f;
 
     public float getF() {
@@ -16,10 +16,10 @@ public class E2Aliasing {
     }
 
     public static void main(String[] args) {
-        E2Aliasing aliasObject1 = new E2Aliasing();
+        E2AliasingInObjectAssignment aliasObject1 = new E2AliasingInObjectAssignment();
         aliasObject1.f = 1.234f;
 
-        E2Aliasing aliasObject2 = new E2Aliasing();
+        E2AliasingInObjectAssignment aliasObject2 = new E2AliasingInObjectAssignment();
         aliasObject2.f = 5.678f;
 
         System.out.println("Original value of object1.f is: " + aliasObject1.f);
