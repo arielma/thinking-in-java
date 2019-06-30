@@ -1,14 +1,19 @@
+/******************************* Exercise 5 ********************************
+ * Modify the previous exercise so that the values of the data in DataOnly
+ * are assigned to and printed in main( ).
+ ***************************************************************************/
+
 package c1.exercise;
 
-public class E4DataOnly {
+public class E4And5DataOnly {
     private static int i = 100;
     private double d;
     private boolean b;
 
     public static void main(String[] args) {
-        E4DataOnly object1 = new E4DataOnly();
-        E4DataOnly object2 = new E4DataOnly();
-        E4DataOnly.i++;
+        E4And5DataOnly object1 = new E4And5DataOnly();
+        E4And5DataOnly object2 = new E4And5DataOnly();
+        E4And5DataOnly.i++;
         object1.d = 8.25;
         object1.b = true;
         System.out.println("The values of members in onject 1 are:\n" + object1.i + "\n " + object1.d + "\n" + object1.b);

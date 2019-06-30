@@ -1,6 +1,9 @@
-package c1.exercise;
+/******************************* Exercise 6 ********************************
+ * Write a program that includes and calls the storage( ) method defined
+ * as a code fragment in this chapter.
+ ***************************************************************************/
 
-import java.util.*;
+package c1.exercise;
 
 public class E6Storage {
 

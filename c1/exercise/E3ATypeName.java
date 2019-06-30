@@ -1,3 +1,8 @@
+/******************************* Exercise 3 ********************************
+ * Find the code fragments involving ATypeName and turn them into a
+ * program that compiles and runs.
+ ***************************************************************************/
+
 package c1.exercise;
 
 import java.util.*;
